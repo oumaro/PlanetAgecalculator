@@ -1,0 +1,19 @@
+After I finished the JavaScript book "JavaScript from Beginner to Professional," I spent some time writing this mini project:
+
+I created an input box where you can enter your age. Then, the project will show you your age on different planets in our galaxy.
+
+Here is how the project works:
+
+    The user enters their age in the input box.
+    The project calculates the user's age on different planets in our galaxy.
+    The project displays the user's age on the different planets.
+
+The project uses the following JavaScript functions:
+
+   functions, Arrow Fucntions/ subString(), and parseFloat(), toFixed() methods.
+   And also i used addEventListener() To target the user input.
+
+The project also uses some HTML and CSS code:
+ simple HTML Structure and Css Styling and animations and media queries for responsive purposes
+
+I hope you enjoy this  project.

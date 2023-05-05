@@ -1,0 +1,173 @@
+* {
+    box-sizing: 0;
+}
+
+input[type=text] {
+    width: 200px;
+    height: 20px;
+    border: 1px solid #ccc;
+    padding: 5px;
+    font-size: 16px;
+    color: #333;
+    background-color: #fff;
+}
+
+input[type=text]:focus {
+    border: 1px solid #000;
+    outline: none;
+}
+
+button[type="reset"] {
+    background-color: #ccc;
+    border: 1px solid #ccc;
+    padding: 5px;
+    font-size: 16px;
+    color: #333;
+    cursor: pointer;
+}
+
+button[type="reset"]:hover {
+    background-color: #aaa;
+    border: 1px solid #aaa;
+}
+
+button[type="reset"]:focus {
+    background-color: #59c567;
+    border: 1px solid #000;
+    color: #fff;
+    outline: none;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin: 5px auto;
+    border: 1px solid red;
+    padding: 5px;
+}
+
+form {
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+.imgs>div {
+    width: 25%;
+    height: auto;
+    text-align: center;
+    border: 1px solid black;
+    margin: 5px;
+}
+
+.imgs>div img {
+    width: 110px;
+    height: 100px;
+}
+
+.imgs>div h1,
+h2 {
+    display: block;
+    /* border: 1px solid black; */
+    margin: 5px auto;
+    padding: 5px;
+    font-family: sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    color: #333;
+    /* margin-top: 0;
+    margin-bottom: .5em; */
+}
+
+#error {
+    display: block;
+    text-align: center;
+    color: red;
+}
+
+h2 {
+    max-width: 100px;
+    height: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: center;
+    padding: 5px;
+}
+
+input {
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    animation: spin 10s linear infinite;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg)
+    }
+
+    to {
+        transform: rotate(360deg)
+    }
+}
+
+label[for="age"] {
+    /* CSS styles for the label */
+    font-family: sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    color: #483ca2;
+
+}
+
+@media only screen and (max-width: 768px) {
+
+    /* Styles for phones */
+    .row {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin: 5px auto;
+        border: 1px solid red;
+        padding: 5px;
+    }
+
+    .imgs>div {
+        width: 80%;
+        height: auto;
+        text-align: center;
+        border: 1px solid black;
+        margin: 5px auto;
+    }
+
+    .imgs>div h1,
+    h2 {
+        display: block;
+        /* border: 1px solid black; */
+        margin: 9px auto;
+        padding: 16px;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin: 0 auto;
+        border: 1px solid black;
+        padding: 10px;
+        text-align: center;
+    }
+
+    input[type=text] {
+        width: auto;
+        height: auto;
+    }
+}
